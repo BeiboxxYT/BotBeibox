@@ -1,14 +1,14 @@
 /*
 
-- sasorizingod
+- BotBeibox
 
 ATT DA 2.5 ❗
 
-+ BUTOES ✅
-+ HEROKU ✅
-+ CONSOLE NOVO ✅
-+ MENU COM VERIFICADO ✅
-+ VALEU GALERA ESPERO QUE GOSTEM ✅
++ Botones ✅
++ Optimizado ✅
++ Servidor Nuevo ✅
++ MENU CON VERIFICADO ✅
++ LEST GOOD ✅
 
 // ❱❱ NODES MODULES ❰❰ */
 const fs = require('fs') 
@@ -44,13 +44,13 @@ const {WAConnection, MessageType , Presence , Mimetype, GroupSettingChange} = re
 // ❱❱  CONTATO DO DONO  ❰❰ 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:⸼ ࣪▪:SASORIZIN ׂ, ׅ∦⁩\n' // ❱❱ SEU NOME  ❰❰
-            + 'ORG:©SASORIZIN ;\n' // ❱❱ NOME DO BOT ❰❰
-            + 'TEL;type=CELL;type=VOICE;waid=5511978754479:+55 11 97875-4479\n'// ❱❱ SEU NÚMERO ❰❰
+            + 'FN:⸼ ࣪▪:BotBeibox ׂ, ׅ∦⁩\n' // ❱❱ SEU NOME  ❰❰
+            + 'ORG:©BotBeibox ;\n' // ❱❱ NOME DO BOT ❰❰
+            + 'TEL;type=CELL;type=VOICE;waid=595984693141:+595 984 693141\n'// ❱❱ SEU NÚMERO ❰❰
             + 'END:VCARD'
 p = setting.p
 blocked = []
-tagBot = `*❱❱ ©SASORIZIN ❰❰*`
+tagBot = `*❱❱ ©BotBeibox ❰❰*`
 
 var { dono, dono2 ,nomeDonoh,nomeBot, grupoDono,  canalDono } = JSON.parse(fs.readFileSync('./src/dono.json'))
 
@@ -82,8 +82,8 @@ fs.existsSync('./BarBar.json') && black.loadAuthInfo('./BarBar.json')
 black.on('connecting', () => {
 start('2', ' ')})
 black.on('open', () => {
-  success('2', 'Bot do sasorizin bot Conectado ✅')})
-black.sendMessage(`${dono}@s.whatsapp.net`,`OI SASORIZIN 😳`, MessageType.text)
+  success('2', 'Bot de Beibox YT Conectado ✅')})
+black.sendMessage(`${dono}@s.whatsapp.net`,`BotBeibox 😳`, MessageType.text)
 await black.connect({timeoutMs: 30*1000})
 fs.writeFileSync('./BarBar.json', JSON.stringify(black.base64EncodedAuthInfo(), null, '\t')) 
 
@@ -102,7 +102,7 @@ ppimg = await black.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us
 } catch {
 ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
-teks = `*❱❱❗ MEMBRO NOVO ❗❰❰*\n\n▻ @${num.split('@')[0]} Seja Bem Vindo  Ao Grupo ${groupName}\n\n*▻❗ Se Apresente Com :* \n\n▻ Foto : \n▻ Sexo :\n▻ Idade :\n▻ Nome :\n▻ Estado : \n\n*▻ Para As Regras Do Grupo :*\n\n▻ Digite :  Regras`
+teks = `*❱❱❗ MIEMBRO NUEVO ME LA PELA ❗❰❰*\n\n▻ @${num.split('@')[0]} TE SALUDA EL BOT DE BEIBOX YT ${groupName}\n\n*▻❗ PODES PRESENTARTE CON :* \n\n▻ Foto : \n▻ Sexo :\n▻ Idade :\n▻ Nome :\n▻ Estado : \n\n*▻ Para As Regras Do Grupo :*\n\n▻ Digite :  Regras`
 let buff = await getBuffer(ppimg)
 black.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 
@@ -114,7 +114,7 @@ ppimg = await black.getProfilePicture(`${num.split("@")[0]}@c.us`)
 } catch {
 ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
-teks = `*❱❱ O Membro  @${num.split('@')[0]} Abandonou o Nosso Grupo 😖 ❰❰*`
+teks = `*❱❱ SE FUE UN GAY  @${num.split('@')[0]} Abandonou o Nosso Grupo 😖 ❰❰*`
 let buff = await getBuffer(ppimg)
 black.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 }
@@ -186,10 +186,10 @@ plaz: `*❱❱‼ Modo certo : ${p}play rap goku black ‼❰❰*`,
 banido: ' *❱❱ Você Está Banido, Não Pode Usar Comandos ❰❰*',
 wait: '*❱❱ ⌛Aguarde...Estou fazendo ⌛❰❰*',
 success: '*❱❱ 🏴‍☠️ Sucesso 🏴‍☠️❰❰*',
-group: `*❱❱ ❕Esse Comando So Fuciona Em Grupo  ❕ ❰❰*\n\n*❱❱  :🏴‍☠️Grupo Ofical 🏴‍☠️ :❰❰*\n\n${grupoDono}`,
+group: `*❱❱ ❕Ese Comando Solo Fuciona En Grupo  ❕ ❰❰*\n\n*❱❱  :🏴‍☠️Grupo Ofical 🏴‍☠️ :❰❰*\n\n${grupoDono}`,
 black:'*ESSE COMANDO N FUNCIONA COM QUEM TEM FIMOSE* 🤓*',
-admin: '*❱❱  ❕ Comando So Para Administradores  ❕ ❰❰*',
-Badmin: '*❱❱❗Não Sou  Administrador❗❰❰*'}
+admin: '*❱❱  ❕ Comando Solo Para Administradores  ❕ ❰❰*',
+Badmin: '*❱❱❗No eres  Administrador❗❰❰*'}
 
 //  ❱❱ LINGUAGEM DE GRUPO ❰❰  
 const isGroup = from.endsWith('@g.us')
@@ -266,7 +266,7 @@ if(isOwner) return (`*❱❱ Que Isso Mestre ?? ❰❰*`)
 if (isGroupAdmins) return enviar(`*❱❱❗ ${pushname} você é admin por isso não vou te banir ❗❰❰*`)
 black.updatePresence(from, Presence.composing)
 var Kick = `${sender.split("@")[0]}@s.whatsapp.net`
-enviar(`*❱❱❗  LINK  DETECTADO ❗ ❰❰*\n\n*❱❱ Membro ${pushname}  quebrou as regras do grupo por isso ele será expulso ❰❰*`)
+enviar(`*❱❱❗  LINK  DETECTADO ❗ ❰❰*\n\n*❱❱ Membro ${pushname}  Beibox Anti Spam esta activado ❰❰*`)
 setTimeout( () => {  
 black.groupRemove(from, [Kick]).catch((e) => {enviar(`*ERROR:* ${e}`)}) 
 }, 1000)
@@ -294,7 +294,7 @@ buttons = [
   ]
 pastaFoto = (await black.prepareMessageMedia(fs.readFileSync(`./src/bot1.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./src/bot2.jpg`)})).imageMessage
 
-textoVisivel = `Menu Aberto Por ${pushname}`
+textoVisivel = `Menu Abierto Por ${pushname}`
 
 buttonsMessage = {
 contentText: textoVisivel,
@@ -321,8 +321,8 @@ imageMsg = (await black.prepareMessageMedia(fs.readFileSync(`./src/bot2.jpg`), '
 lzmodsdominabb = `
  ╭▻ *❱❱❗${groupName} ❗❰❰*
  ⏐▻ *Admin :* ${groupAdmins.length}
- ⏐▻ *Membros :* ${groupMembers.length}
- ╰⏤⏤▻ *❱❱ DESCRICAO ❰❰* ◅⏤⏤
+ ⏐▻ *Miembros :* ${groupMembers.length}
+ ╰⏤⏤▻ *❱❱ DESCRIPCION ❰❰* ◅⏤⏤
  
  ${groupDesc}`
 
@@ -360,7 +360,7 @@ list_chat = await black.chats.all()
 for (let chat of list_chat) {
 black.modifyChat(chat.jid, "delete", {includeStarred: false})
 }
-enviar("chats nukados por sasorizin ️")
+enviar("chats nukados por Beibox YT ️")
 break
 
 case 'criador':
@@ -400,7 +400,7 @@ buttons = [
   ]
 pastaFoto = (await black.prepareMessageMedia(fs.readFileSync(`./src/bot3.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./src/bot2.jpg`)})).imageMessage
 
-textoVisivel = `Menu Dos Admins`
+textoVisivel = `Menu De Admins`
 
 buttonsMessage = {
   contentText: textoVisivel,footerText: `${nomeBot}`, imageMessage: pastaFoto,buttons: buttons,headerType: 4
@@ -410,11 +410,11 @@ black.relayWAMessage(prep)
 break
 
 case 'spam':
-if (!isGroupAdmins) return enviar ('🖐️só quem tem pau grande pode usar esse comando !')
-if (!isGroup) return reply("\n\n  [black]  Esse comando só funciona em grupos.  \n\n")
+if (!isGroupAdmins) return enviar ('🖐️tenes que tener valor para usar este comando !')
+if (!isGroup) return reply("\n\n  [black]  Este comando sólo funciona en grupos.  \n\n")
 // if (!isBotGroupAdmins)
 black.groupSettingChange(from, GroupSettingChange.messageSend, true)
-black.groupUpdateSubject(from, " .️‼️ SPAM AGORA ‼️.‼️‼️‼️‼️️ ")
+black.groupUpdateSubject(from, " .️‼️ SPAM GO ‼️.‼️‼️‼️‼️️ ")
 var group = await black.groupMetadata(from)
 var member = group["participants"]
 var mem = []
@@ -422,7 +422,7 @@ member.map(async (adm) => {
 mem.push(adm.id.replace("c.us", "s.whatsapp.net"));
 })
 var optionshidetag = {
-text: ' ‼️ ATENÇÃO TODOS | FIQUEM ATIVOS | ATAQUE AGORA ‼️ ',
+text: ' ‼️ ATENCION TODOS | TODOS ACTIVOS | ATAQUE AHORA ‼️ ',
 contextInfo: { mentionedJid: mem },
 quoted: mek,
 }
@@ -688,7 +688,7 @@ enviar(`transmição foi enviada a ${bahh.length} grupos`)
 for (i = 0; i < bahh.length; i++) {
 sendMess(bahh[i].jid, `\n\n‼️♨️       ATAQUE de TRAVAS       ♨️‼️
 
-  ♨️ ⟩⟩      BORA DERRUBAR ESSE RANDOLA TROPA, RAJEM NO MÍNIMO 1K DE TRAVAS NELE.      
+  ♨️ ⟩⟩      Ataquen con Todo TROPA, MINIMO 10 K de travas GO GO GO.      
 
   ⟠ 1️⃣.: api.whatsapp.com/send/?phone=${body.slice(5)}`)
 }
@@ -728,7 +728,7 @@ enviar(`transmição foi enviada a ${bahh.length} grupos`)
 for (i = 0; i < bahh.length; i++) {
 sendMess(bahh[i].jid, `\n\n‼️♨️       ATAQUE de DENUNCIA       ♨️‼️
 
-  ✅ ⟩⟩      ENVIE UMA MENSAGEM PARA CADA ALVO, DENUNCIE SOMENTE 1 VEZ E DEPOIS DE BLOCK.      
+  ✅ ⟩⟩      ENVIE UMA MENSAGEM PARA CADA MIEMBRO, DENUNCIE SOLAMENTE 1 VEZ DEPOIS DE BLOCK.      
 
   ⟠ 1️⃣.: api.whatsapp.com/send/?phone=${body.slice(12)}`)
 }
@@ -783,7 +783,7 @@ black.sendMessage(bahh[i].jid, buff, image, {caption: `[ TRANSMIÇÃO DE MY DONO
 reply(`transmição foi enviada a ${bahh.length} grupos`)
 } else {
 for (i = 0; i < bahh.length; i++) {
-sendMess(bahh[i].jid, `\n\n♨️  𐎟  BOA RAPAZIADA! O ATAQUE ACABOKKK🌟\n\n️`)
+sendMess(bahh[i].jid, `\n\n♨️  𐎟  OHHH YEA BABY! EL ATAQUE FINALIZO🌟\n\n️`)
 }
 }
 break
@@ -802,7 +802,7 @@ black.sendMessage(bahh[i].jid, buff, image, {caption: `[ TRANSMIÇÃO DE MY DONO
 reply(`transmição foi enviada a ${bahh.length} grupos`)
 } else {
 for (i = 0; i < bahh.length; i++) {
-sendMess(bahh[i].jid, `\n\n♨️  𐎟  BOA RAPAZIADA! O ALVO FOI DERRUBADO COM SUCESSO!!  NÓS É PICA SIM OU CLARO? KKKKKKK  🌟\n\n️`)
+sendMess(bahh[i].jid, `\n\n♨️  𐎟  OHHH YEA BABY! EL ATAQUE FINALIZO LE DIMOS SIN VASELINA KKK  🌟\n\n️`)
 }
 }
 break
@@ -820,7 +820,7 @@ break;
 case 'tm': 
 case 'bc': 
 if (!isOwner) return enviar ('*ESSE COMANDO N FUNCIONA COM QUEM TEM FIMOSE* 🤓*')
-if (args.length < 1) return reply('\n\n  [SASORIZIN] Cade o texto?  \n\n')
+if (args.length < 1) return reply('\n\n  [BotBeibox] Cade o texto?  \n\n')
 anu = await black.chats.all()
 if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
@@ -828,12 +828,12 @@ buff = await black.downloadMediaMessage(encmedia)
 for (let _ of anu) {
 black.sendMessage(_.jid, buff, image, {caption: `\n${body.slice(4)}\n`})
 }
-reply('\n  [ SASORIZIN ]  Enviado com sucesso.\n')
+reply('\n  [ BotBeibox ]  Enviado com sucesso.\n')
 } else {
 for (let _ of anu) {
 sendMess(_.jid, `\n${body.slice(4)}\n`)
 }
-reply('\n  [ SASORIZIN ]  Enviado com sucesso.\n')
+reply('\n  [ BotBeibox ]  Enviado com sucesso.\n')
 }
 break;
 
@@ -857,11 +857,11 @@ break;
 case 'tagall':
 case 'tag all': // Marcar todos do grupo
 if (!isGroupAdmins) return enviar ('🖐️só quem tem pau grande pode usar esse comando !')
-if (!isGroup) return reply("\n  👑  SASORIZIN diz:  Esse comando só funciona em grupos! \n")
+if (!isGroup) return reply("\n  👑  BotBeibox diz:  Esse comando só funciona em grupos! \n")
 black.updatePresence(from, Presence.composing)
 members_id = []
 todos = (args.length > 1) ? body.slice(8).trim(): ''
-todos += `\n\n[SASORIZIN_BOT] TOTAL DE MEMBROS > ${groupMembers.length} [SASORIZIN_BOT]\n\n`
+todos += `\n\n[BotBeibox] TOTAL DE MIEMBROS > ${groupMembers.length} [BotBeibox]\n\n`
 for (let mem of groupMembers) {
 todos += `> @${mem.jid.split('@')[0]}\n`
 members_id.push(mem.jid)
@@ -885,7 +885,7 @@ antilink.splice(from)
 fs.writeFileSync('./src/seguranca/antilink.json', JSON.stringify(antilink))
 enviar('*❱❱ ‼️ Desativado Com Sucesso ‼️ ❰❰*')
 } else {
-enviar('*❱❱ ‼️ On para ativar  :  Off para desativar ‼️ ❰❰*')
+enviar('*❱❱ ‼️ On para activar  :  Off para desactivar ‼️ ❰❰*')
 }
 } catch {
  console.log(color('*❱❱ ERRO ❰❰*','red'))
@@ -1089,7 +1089,7 @@ black.relayWAMessage(prep)
 break
 
 case '⬇️⬇️⬇️⬇️':
-if (args.length < 1) return enviar(`*❱❱ ERROR: ❰❰*\n\nModo Certo :  ${p +comando} ©SASORIZIN`)
+if (args.length < 1) return enviar(`*❱❱ ERROR: ❰❰*\n\nModo Certo :  ${p +comando} ©BotBeibox`)
 try {
 var chollotxt = body.slice(5).trim()
 enviar(mess.wait)
