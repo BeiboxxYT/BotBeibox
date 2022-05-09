@@ -1,0 +1,28 @@
+APPS NECESSARIO : BY SasorizinGod 
+
+- Termux : https://www.mediafire.com/file/hf9gc9t2v0xio9r/Termux+©Blackzin.apk/file
+
+-----------------------------------------------
+
+Copie E Cole Esses Comandos No Seu Termux
+
+1- termux-setup-storage 
+Da " Y " E Dar Enter
+
+2- cd /sdcard/sasorizingod
+
+3- bash black.sh 
+
+4- Scanear QrCode
+
+
+NOTA : Caso Você Desligue a Base e Não Sabe Como Ligar Vai No Termux..
+
+
+1° Digite : cd /sdcard/sasorizingod
+
+2°  Use : sh start.sh
+
+3° Prontinho😊
+
+-----------------------------------------------
