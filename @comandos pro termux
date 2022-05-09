@@ -1,15 +1,15 @@
-APPS NECESSARIO : BY SasorizinGod 
+APPS NECESSARIO 
 
 - Termux : https://www.mediafire.com/file/hf9gc9t2v0xio9r/Termux+©Blackzin.apk/file
 
 -----------------------------------------------
 
-Copie E Cole Esses Comandos No Seu Termux
+Copie y pegue los comando en Termux
 
 1- termux-setup-storage 
-Da " Y " E Dar Enter
+Luego Das a la  " Y " Es Dar Enter
 
-2- cd /sdcard/sasorizingod
+2- cd /sdcard/BotBeibox
 
 3- bash black.sh 
 
@@ -19,10 +19,10 @@ Da " Y " E Dar Enter
 NOTA : Caso Você Desligue a Base e Não Sabe Como Ligar Vai No Termux..
 
 
-1° Digite : cd /sdcard/sasorizingod
+1° Digite : cd /sdcard/BotBeibox
 
 2°  Use : sh start.sh
 
-3° Prontinho😊
+3° Pronto😊
 
 -----------------------------------------------
